@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/jQuery.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        .table{
+            margin-top: 75px;
+        }
+        .cart-foot{
+            margin-top: 298px;
+        }
+        th,td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/public_html/home.html" class="navbar-brand">Lifestyle Store</a>
+            </div>
+            <div class="collapse navbar-collapse" id="my-navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/public_html/cart.html"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                    <li><a href="/public_html/settings.html"><span class="glyphicon glyphicon-cog"></span> Settings</a></li>
+                    <li><a href="/public_html/login.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container table">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Item Number</th>
+                                <th>Item Name</th>
+                                <th>Price</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td></td>
+                                <td>Total</td>
+                                <td>Rs.0</td>
+                                <td><a href="/public_html/success.html"><button class="btn btn-primary disabled">Confirm-order</button></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="cart-foot">
+        <div class="container text-center">
+            <h6>“Copyright © Lifestyle Store. All Rights
+                Reserved” ​and ​“Contact Us: +91 90000 00000”</h6>
+        </div>
+    </footer>
+</body>
+</html>
